@@ -4,6 +4,11 @@ import HomePage from "../components/HomePage";
 import { createStackNavigator } from '@react-navigation/stack';
 import ListItem from "../components/ListItem";
 import List from "../components/List";
+import { NativeWindStyleSheet } from "nativewind";
+
+NativeWindStyleSheet.setOutput({
+  default: "native",
+});
 
 const Stack = createStackNavigator();
 

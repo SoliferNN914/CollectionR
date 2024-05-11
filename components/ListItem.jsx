@@ -6,7 +6,7 @@ export default function ListItem({ route }) {
   const { itemId, title } = route.params;
   
   return (
-    <View className="flex-1 items-center justify-center">
+    <View className="flex flex-row">
       <Text className="text-lg">Item ID: {itemId}</Text>
       <Text className="text-lg">Title: {title}</Text>
       {/* Add more details here */}

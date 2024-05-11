@@ -13,7 +13,7 @@ export default function List() {
   const navigation = useNavigation();
 
   return (
-    <View className="flex-1 items-center justify-center">
+    <View className="flex flex-row">
       {Data.map(item => (
         <TouchableOpacity key={item.id} className="p-4 m-2 bg-green-800 rounded" onPress={() => navigation.navigate('ListItem', { itemId: item.id, title: item.title })}>
           <Text className="text-lg">{item.title}</Text>
