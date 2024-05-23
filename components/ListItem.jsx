@@ -7,7 +7,7 @@ export default function ListItem({ route }) {
   
   return (
     <View className="flex flex-col items-center justify-center">
-      <Image className="w-48 h-48 object-contain mb-4" source={url} />
+      <Image className="w-80 h-80 object-contain mb-4" source={url} />
       <Text className="text-lg font-bold">Item ID: {itemId}</Text>
       {/* <Text className="text-lg font-bold">Title: {title}</Text> */}
     </View>
